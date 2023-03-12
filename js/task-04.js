@@ -6,11 +6,11 @@
   decrement.addEventListener("click", btnDecrementHandler);
 
   function btnIncrementHandler(event) {
-    console.log((counterValue += 1))
+    counterValue += 1;
     shownValue.textContent = counterValue;
 };
 function btnDecrementHandler(event) {
-  console.log((counterValue -= 1));
+  counterValue -= 1;
   shownValue.textContent = counterValue;
 }
   
