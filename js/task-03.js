@@ -19,4 +19,7 @@ const galleryMarkup = images.map(({ url, alt } = {}) => { return `<li><img src=$
 
 imagesGallery.insertAdjacentHTML('afterbegin', galleryMarkup)
 
+imagesGallery.style.display = "flex";
+imagesGallery.style.gap = "30px";
+imagesGallery.style.listStyle = "none";
 
